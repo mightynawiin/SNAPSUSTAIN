@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 25% 98%;
+    --foreground: 120 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 120 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 15% 15%;
+
+    --primary: 142 49% 34%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 44 57% 47%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 120 10% 94%;
+    --muted-foreground: 120 8% 45%;
+
+    --accent: 199 97% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 120 12% 90%;
+    --input: 120 12% 90%;
+    --ring: 142 49% 34%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 120 25% 98%;
+    --sidebar-foreground: 120 15% 25%;
+    --sidebar-primary: 142 49% 34%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 120 10% 94%;
+    --sidebar-accent-foreground: 120 15% 25%;
+    --sidebar-border: 120 12% 90%;
+    --sidebar-ring: 142 49% 34%;
+  }
+
+  .dark {
+    --background: 120 15% 8%;
+    --foreground: 120 10% 95%;
+
+    --card: 120 15% 10%;
+    --card-foreground: 120 10% 95%;
+
+    --popover: 120 15% 10%;
+    --popover-foreground: 120 10% 95%;
+
+    --primary: 142 49% 34%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 44 57% 47%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 120 15% 20%;
+    --muted-foreground: 120 10% 70%;
+
+    --accent: 199 97% 38%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 120 10% 95%;
+
+    --border: 120 15% 20%;
+    --input: 120 15% 20%;
+    --ring: 142 49% 44%;
+    
+    --sidebar-background: 120 15% 10%;
+    --sidebar-foreground: 120 10% 95%;
+    --sidebar-primary: 142 49% 44%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 120 15% 15%;
+    --sidebar-accent-foreground: 120 10% 95%;
+    --sidebar-border: 120 15% 20%;
+    --sidebar-ring: 142 49% 44%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
