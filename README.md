@@ -1,73 +1,123 @@
-# Welcome to your Lovable project
+# ♻️ CleanUp Community (SNAP TO SUSTAINABILITY)🌍
 
-## Project info
+**A community-driven platform to report, track, and clean waste — making our surroundings cleaner and greener.**
 
-**URL**: https://lovable.dev/projects/831c35e2-0ed2-4778-95c0-bc83fd9ba40b
+---
 
-## How can I edit this code?
+## 🚀 Purpose
 
-There are several ways of editing your application.
+Empower users to report garbage and waste in their environment, collaborate on cleanup activities, and earn rewards for their contributions to a cleaner world.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/831c35e2-0ed2-4778-95c0-bc83fd9ba40b) and start prompting.
+## 🗺️ Screenshots & Visuals
 
-Changes made via Lovable will be committed automatically to this repo.
+| 🗺️ **Map Integration** | 🧼 **Before & After Cleanup** |
+|:------------------------:|:-----------------------------:|
+| ![Map Integration](https://github.com/user-attachments/assets/be116bc4-5fa9-4ae2-872d-559fee03160c) | ![Before & After Cleanup](https://github.com/user-attachments/assets/b190b77c-5c79-4f73-a470-7ef86a7e71d4) |
 
-**Use your preferred IDE**
+| 🧑‍🤝‍🧑 **User Feed** | 🎯 **Points Dashboard** |
+|:--------------------:|:------------------------:|
+| ![User Feed](https://github.com/user-attachments/assets/ad023f73-8842-422b-b2dc-51cd74fb652a) | ![Points Dashboard](https://github.com/user-attachments/assets/7ce1b234-47a7-4df6-bbdf-37edd0637142) |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧰 Key Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 👤 User Registration & Profiles
+- Sign up with email or social accounts.
+- View personal stats: points, badges, and contributions.
 
-**Edit a file directly in GitHub**
+### 📸 Photo & Video Upload
+- Upload waste reports with images or videos.
+- Share before-and-after cleanup visuals.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 📍 Location Tagging
+- GPS or address-based tagging.
+- Google Maps integration for accurate location visualization.
 
-**Use GitHub Codespaces**
+### 🏛️ Municipality Integration
+- Municipal teams receive real-time waste alerts.
+- Backend dashboard for tracking and management.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🎯 Points & Rewards System
+- Earn points for:
+  - Reporting waste
+  - Cleaning it up
+  - Uploading before-and-after media
+- Redeem points for:
+  - Badges 🏅
+  - Certificates 📜
+  - Discount Coupons 🎁
 
-## What technologies are used for this project?
+### 🧩 Community Feed
+- Discover recent reports and cleanups.
+- Like, comment, and support community efforts.
 
-This project is built with:
+### 🛠️ Admin Dashboard
+- Manage users, content, and analytics.
+- Generate environmental impact reports.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧪 Tech Stack
 
-Simply open [Lovable](https://lovable.dev/projects/831c35e2-0ed2-4778-95c0-bc83fd9ba40b) and click on Share -> Publish.
+### Frontend
+- HTML, CSS, JavaScript
+- Framework: React.js + TypeScript
 
-## Can I connect a custom domain to my Lovable project?
+### Backend
+- Flask
 
-Yes, you can!
+### Database
+- SQLite
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Authentication
+- JWT (JSON Web Tokens)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Maps
+- Google Maps API integration
+
+### Notifications
+- Email via SMTP
+
+---
+
+## 🔄 Workflow
+
+1. **User Registration** ➜ Create profile  
+2. **Waste Reporting** ➜ Upload media + location  
+3. **Municipality Alert** ➜ Notification sent  
+4. **Cleanup** ➜ Upload proof  
+5. **Earn Points** ➜ Get rewards  
+6. **Leaderboard & Community Feed** ➜ Stay engaged  
+
+---
+
+## 📱 Additional Considerations
+
+- 🕹️ **Gamification:** Leaderboards, challenges, achievement system
+- 📖 **Community Guidelines:** Safety & reporting standards
+- 📱 **Mobile Responsiveness:** Optimized for phones and tablets
+
+---
+
+
+
+---
+
+## ✅ Conclusion
+
+CleanUp Community makes waste management a shared responsibility. With the power of community, tech, and incentives, let’s keep our neighborhoods clean and green together 🌱💪
+
+---
+
+**Made with 💚 for a cleaner planet**
+
+---
+
+> Need help setting up or contributing? [Open an issue](https://github.com/yourusername/cleanup-community/issues) or start a discussion.
